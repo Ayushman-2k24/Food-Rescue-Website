@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+.main-title {
+  color: white;
+}
+.main-title:hover {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="datetime-local"] {
+  background: #191919;
+  padding: 0.9rem 1.2rem;
+  width: 100%;
+  border-radius: 0.9rem;
+  color: white;
+}
+textarea {
+  background: #191919;
+  padding: 0.9rem 1.2rem;
+  width: 100%;
+  border-radius: 0.9rem;
+  color: white;
+}
